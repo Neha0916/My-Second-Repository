@@ -1,12 +1,39 @@
  <style>
+    .flex-container .box{
+        display:flex;
+        border: 1px solid black;
+         float: left; 
+    }
+    .box-1{
+        height:150px;
+        width:300px;
+        color:white;
+        background-color:blue;
+        border: 1px solid black;
+    }
+    .box-2{
+        height:250px;
+        width:150px;
+        color:white;
+        background-color:rgb(184, 247, 82);
+        border: 1px solid black;
+    }
+    .box-3{
+        height:50px;
+        width: 100px;
+        color:white;
+        background-color:rgb(232, 78, 12);
+        border: 1px solid black;
+    }
    .column{
-    flex-direction:column-reverse;
+    /* flex-direction:row-reverse; */
+    justify-content: space-around;
    } 
  </style>
  <div class ="flex-container column">
-    <div class="box-1">1</div>
-    <div class="box-2">2</div>
-    <div class="box-3">3</div>
+    <div class="box box-1">1</div>
+    <div class="box box-2">2</div>
+    <div class="box box-3">3</div>
  </div>
   <!-- Links -->
 <div>
