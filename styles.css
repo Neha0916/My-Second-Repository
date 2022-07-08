@@ -1,0 +1,129 @@
+h6{
+    font-family: "Lucida Handwriting";
+    font-weight: normal;
+    font-size: 60px;
+    text-align: center;
+    margin: 40.2px;
+}
+
+body{
+    padding: 0 50px;
+}
+.box-1 {
+    /* height: inherit; */
+    width: 25%;
+    border: 1px solid black;
+}
+.box-2 {
+    /* height: inherit; */
+    width: 50%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+.box-3 {
+    /* height: inherit; */
+    width: 25%;
+    border: 1px solid black;
+}
+.first-box {
+     display: flex;
+    /* width: 100%; */
+    border: 1px solid black;
+    float: left;
+    align-items: stretch;
+    /* height: 610px; */
+    margin-right: 50px;
+}
+.second-box {
+    display: flex;
+   /* width: 100%; */
+   border: 1px solid black;
+   float: left;
+   align-items: stretch;
+   /* height: 350px; */
+   margin-right: 50px;
+   margin-bottom: 20px;
+}
+h3{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+p{
+    text-align: left;
+    margin: 16px;
+}
+.boxx{
+     width: 75%;
+    border: 1px solid black;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+.box-4{
+    /* height: inherit; */
+    /* width: 75%; */
+    /* border: 1px solid black; */
+    
+    font-style: bold;
+    font-size: 30px;
+     width: 100%;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+.b1{
+    /* height: 20%; */
+    background-color: rgba(0, 255, 255, 0.46);
+    display: flex;
+    align-items: center;
+    /* flex:1; */
+    
+}
+.b2{
+    /* height: 20%;display: flex; */
+    display: flex;
+    align-items: center;
+    /* flex:1; */
+    background-color: rgba(22, 99, 241, 0.55);
+}
+.b3{
+    /* height: 20%;display: flex; */
+    display: flex;
+    align-items: center;
+    /* flex:1; */
+    background-color: rgba(188, 45, 244, 0.44);
+}
+.b4{
+    /* height: 20%;display: flex; */
+    display: flex;
+    align-items: center;
+    /* flex:1; */
+    background-color: rgba(225, 71, 33, 0.477);
+}
+.b5{
+    /* height: 20%;display: flex; */
+    display: flex;
+    align-items: center;
+    /* flex:1; */
+    background-color: rgba(0, 255, 21, 0.347);
+}
+a{
+    text-decoration: none;
+   margin-left: 25px;
+   font-family: "Futura";
+   font-weight: bold;
+   cursor: pointer;
+}
+.b{
+    list-style-type: none;
+}
+.pic{
+    width: 100%;
+}
+.box-4 a:hover{
+    text-decoration: underline;
+}
