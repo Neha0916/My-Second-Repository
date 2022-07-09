@@ -1,0 +1,46 @@
+.list{
+    list-style-type: none;
+}
+h2{
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: grey;
+   font-size: 16px;
+   padding: 2px;
+}
+.sub-list{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    margin: 5px;
+    align-items: flex-start;
+    width: 90%;
+}
+p {
+    font-size: 16px;
+    color: rgba(101, 101, 101, 0.998);
+    
+}
+li{
+    font-size: 16px;
+    color: rgba(101, 101, 101, 0.998);
+}
+
+body{
+    display: grid;
+    grid-template-columns: minmax(300)1fr;
+    grid-template-areas: "navbar mainContent";
+    grid-gap:45px;
+}
+nav .list{
+    grid-area: navbar;
+    position: fixed;
+}
+main .main-doc{
+    grid-area: mainContent;
+}
+.para{
+    background-color: rgb(204, 216, 216);
+}
