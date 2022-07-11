@@ -8,44 +8,81 @@
     <title>Form</title>
 </head>
 <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <div id="outside">  
         <form id="survey-form" action="/my-handling-form-page" method="post"> 
-    <h1>Application For Permission To Date My Daughter</h1>
-    <p class="line1"><span>Note:</span> Form is to be completed at least 21 days prior to date</p>
+    <h1 id="title">Application For Permission To Date My Daughter</h1>
+    <p id="description"><b>Note:</b> Form is to be completed at least 21 days prior to date</p>
     
     <fieldset>
-        <h3>Personal Details</h3>
+        <legend>Personal Details</legend>
         <div>
         <label id="name-label" for="name">Name:</label>
-        <input type="text" name="user_name" id="name" placeholder="Enter your name here">
+        <input type="text" name="user-name" required id="name" placeholder="Enter your name here">
         </div>
         <div>
         <label for="address" id="address-label">Address:</label>
-        <input type="Address" id="address" placeholder="Enter your address">
+        <input type="Address" required id="address" placeholder="Enter your address">
         </div>
         <div>
         <label for="E-mail" id="email-label">Email:</label>
-        <input type="email" id="email" placeholder="Enter your email">
+        <input type="email" required id="email" placeholder="Enter your email">
         </div>
         <div>
-        <label for="phone-number" id="pno-label">Phone Number:</label>
-        <input type="text" id="pno" placeholder="Enter 10 digit number">
+        <label for="phone-number" id="number-label">Phone Number:</label>
+        <input type="number" id="number" placeholder="Enter 10 digit number" min="0000000000" max="9999999999">
         </div>
         <div>
         <label for="IQ" id="iq-label">IQ:</label>
-        <input type="text" id="iq" placeholder="Enter IQ here">
+        <input type="number" required id="iq" placeholder="Enter IQ here">
         </div>
         <div>
-        <label for="Gender" id="genger-label">Gender:</label>
-        <input type="radio" id="gender" value="Male">Male<br>
-        <input type="radio" id="gender" value="Female">Female<br>
-        <input type="radio" id="gender" value="Other">Other<br>
+        <label for="Gender" id="gender-label">Gender:</label><br>
+        <p><input type="radio" required id="gender" value="Male" name="gender" checked>Male<br>
+        <input type="radio" required id="gender" value="Female" name="gender">Female<br>
+        <input type="radio" required id="gender" value="Other" name="gender">Other<br>
+        </p>
         </div>
         <div>
             <label for="date-of-proposed" id="date">Date of Proposed Outing:</label>
-            <input type="date" id="date">
+            <input type="date" required id="date">
         </div>
     </fieldset>
+    <fieldset>
+        <p>Check All That Apply </p><p>
+            <input type="checkbox" required id="check" name="check" value="tattoos"> I have tattoos and/or piercings<br>
+            <input type="checkbox" required id="check" name="check" value="age"> I am more than 2 years older than my daughter<br>
+            <input type="checkbox" required id="check" name="check" value="car"> I own a panel van or V8 ute<br>
+            <input type="checkbox" required id="check" name="check" value="job"> I work full-time<br>
+            <input type="checkbox" required id="check" name="check" value="rich"> My parents are rich<br>
+            <input type="checkbox" required id="check" name="check" value="loc"> Is the date at a well lit public location<br>
+        </p>
+    </fieldset>
+    <fieldset>
+        <p>Political Persuation:
+            <select name="political" id="dropdown">
+                <option value="Left Wing">Left Wing</option>
+                <option value="Right Wing">Right Wing</option>
+                <option value="Conservative">Conservative</option>
+                <option value="Nazi">Nazi</option>
+            </select> Education Level Completed
+            <select name="education" id="dropdown">
+                <option value="University">University</option>
+                <option value="College">College</option>
+                <option value="High School">High School</option>
+                <option value="None">None</option>
+            </select>
+        </p>
+    </fieldset>
+<fieldset>
+    <legend>Essay Section</legend>
+    <p>In 50 words or more explain why you want to date my daughter
+        </p> <textarea name="text-area" id="text-area" cols="35" rows="6" placeholder="Enter your text here"></textarea>
+    <p>Please upload contact details for 2 references</p>
+    <textarea name="text-area" id="text-area" cols="35" rows="4" placeholder="Enter text here"></textarea>
+    <p>Upload Police Clearance Cerificate, Bank Statement and Medical Cerificates here:<button>Attach Files</button></p>
+</fieldset>
+<div id="button"><button id="submit" type="submit">Send Your Application</button></div>
 </form>
     </div>
 </body>

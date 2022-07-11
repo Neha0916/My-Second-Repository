@@ -1,7 +1,8 @@
 
 #outside{
-  
-    background-color:beige;
+  background-color:beige;
+  /* padding-top: 25px;
+  padding-bottom: 25px; */
 }
 form{
     margin: 0 auto;
@@ -28,7 +29,26 @@ span{
 fieldset{
     border: 1px solid lightgray;
     margin: 10px;
+    margin-top: 0;
+    /* padding: 20px 20px; */
 }
 div+div{
     margin-top: 1em;
+    /* margin-bottom: 1em; */
+}
+legend{
+    font-weight: bold;
+    font-size: large;
+}
+button{
+    background-color: red;
+    font-weight: bolder;
+    color: white;
+    align-items: center;
+    border-radius: 0.5em;
+    border-color: red;
+}
+#button{
+    display: flex;
+    justify-content: center;
 }
