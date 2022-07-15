@@ -1,0 +1,31 @@
+body{
+    background-color: rgba(0, 0, 0, 0.252);
+}
+.main{
+    border: 1px solid rgb(76, 11, 175);
+    height: 500px;
+    width: 500px;
+    border-radius: 100px;
+    box-shadow: 500px white;
+    background-color:rgb(76, 11, 175) ;
+}
+.part1{
+    border: 105px solid white;
+    height: 350px;
+    width: 100px;
+    margin-top: 46px;
+    margin-left: 220px;
+    border-top-left-radius: 130px;
+    border-bottom: 0;
+    border-right: 0;
+}
+.part2{
+    border: 90px solid white;
+    height: 50px;
+    width: 240px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-top: -270px;
+    margin-left: 149px;
+}
