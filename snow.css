@@ -29,12 +29,12 @@
     margin-top: 0px;
 }
 .hat-4{
-    border: 1px solid black;
+    border: 2px solid black;
     height: 5px;
-    width: 160px;
+    width: 140px;
     background-color: black;
-    margin-left: 160px;
-    margin-top: 0.5px;
+    margin-left: 168px;
+    margin-top: -110px;
 }
 .snow-body-2{
     border: 1px solid   rgb(147, 13, 13) ;
@@ -43,6 +43,15 @@
     margin-top: -190px;
     margin-left: 179px;
     background-color:  rgb(147, 13, 13);
+}
+.snow-body-3{
+    border: 1px solid   rgb(241, 153, 10) ;
+    height: 17px;
+    width: 100px;
+    margin-top: -25px;
+    margin-left: 188px;
+    background-color: rgb(241, 153, 10) ;
+    border-radius: 40px ;
 }
 .body-1{
     border: 1px solid white;
