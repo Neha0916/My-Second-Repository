@@ -36,10 +36,13 @@
     margin-left: 160px;
     margin-top: 0.5px;
 }
-.snow-body{
-    border: 1px solid  rgb(147, 13, 13) ;
-    height: 20px;
-    
+.snow-body-2{
+    border: 1px solid   rgb(147, 13, 13) ;
+    height: 30px;
+    width: 120px;
+    margin-top: -190px;
+    margin-left: 179px;
+    background-color:  rgb(147, 13, 13);
 }
 .body-1{
     border: 1px solid white;
