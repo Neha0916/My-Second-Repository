@@ -4,3 +4,35 @@
     width: 500px;
     background-color: rgb(147, 13, 13);
 }
+.hat-1{
+    border: 1px solid black;
+    height: 20px;
+    width: 80px;
+    background-color: black;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.hat-2{
+    border: 1px solid white;
+    height: 20px;
+    width: 80px;
+    background-color: white;
+    margin-left: 200px;
+    margin-top: 0px;
+}
+.hat-3{
+    border: 1px solid black;
+    height: 20px;
+    width: 80px;
+    background-color: black;
+    margin-left: 200px;
+    margin-top: 0px;
+}
+.hat-4{
+    border: 1px solid black;
+    height: 5px;
+    width: 160px;
+    background-color: black;
+    margin-left: 160px;
+    margin-top: 0.5px;
+}
