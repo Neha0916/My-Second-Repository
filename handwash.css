@@ -30,4 +30,68 @@
     margin-top: -40px;
     margin-left:285px;
 }
-
+.top4{
+    border: 1px solid  rgb(221, 173, 16);
+    height: 40px;
+    width: 80px;
+    background-color: rgb(221, 173, 16);
+    border-radius: 15px;
+    margin-top: -20px;
+    margin-left:261px;
+}
+.body1{
+    border: 1px solid  rgb(221, 173, 16);
+    height: 120px;
+    width: 180px;
+    background-color: rgb(221, 173, 16);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: -9px;
+    margin-left:212px;
+}
+.body2{
+    border: 1px solid  rgb(155, 141, 12);
+    height: 140px;
+    width: 180px;
+    background-color:rgb(155, 141, 12);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: -9px;
+    margin-left:212px;
+}
+.circle1{
+    border: 1px solid  rgb(221, 173, 16);
+    height: 90px;
+    width: 90px;
+    background-color: rgb(221, 173, 16);
+    border-radius: 60em;
+    margin-top: -186px;
+    margin-left: 302px;
+}
+.circle2{
+    border: 1px solid  rgb(155, 141, 12);
+    height: 90px;
+    width: 90px;
+    background-color:rgb(155, 141, 12);
+    border-radius: 60em;
+    margin-top: -80px;
+    margin-left: 212px;
+}
+.circle3{
+    border: 1px solid  rgb(155, 141, 12);
+    height: 30px;
+    width: 30px;
+    background-color:rgb(155, 141, 12);
+    border-radius: 60em;
+    margin-top: -180px;
+    margin-left: 437px;
+}
+.circle4{
+    border: 1px solid  rgb(155, 141, 12);
+    height: 30px;
+    width: 30px;
+    background-color:rgb(155, 141, 12);
+    border-radius: 60em;
+    margin-top: 20px;
+    margin-left: 437px;
+}
