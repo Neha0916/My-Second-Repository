@@ -4,3 +4,26 @@
     width: 600px;
     background-color: rgba(142, 136, 20, 0.963);
 }
+.ears{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ear1{
+    border: 1px solid rgba(4, 72, 19, 0.913);
+    height: 300px;
+    width: 150px;
+    border-radius: 100px/200px;
+    background-color: rgba(4, 72, 19, 0.913);
+    margin-top: -460px;
+    margin-left: -20px;
+}
+.ear2{
+    border: 1px solid rgba(4, 72, 19, 0.913);
+    height: 300px;
+    width: 150px;
+    border-radius: 100px/200px;
+    background-color: rgba(4, 72, 19, 0.913);
+    margin-top: -460px;
+    margin-left: -20px;
+}
