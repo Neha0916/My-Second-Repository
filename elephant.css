@@ -10,20 +10,20 @@
     justify-content: space-around;
 }
 .ear1{
-    border: 1px solid rgba(4, 72, 19, 0.913);
+    border: 1px solid rgb(4, 72, 19);
     height: 300px;
     width: 150px;
     border-radius: 100px/200px;
-    background-color: rgba(4, 72, 19, 0.913);
+    background-color: rgb(4, 72, 19);
     margin-top: -460px;
     margin-left: -30px;
 }
 .ear2{
-    border: 1px solid rgba(4, 72, 19, 0.913);
+    border: 1px solid rgb(4, 72, 19);
     height: 300px;
     width: 150px;
     border-radius: 100px/200px;
-    background-color: rgba(4, 72, 19, 0.913);
+    background-color: rgb(4, 72, 19);
     margin-top: -460px;
     margin-right: 50px;
 }
@@ -33,24 +33,33 @@
     justify-content: space-around;
 }
 .ear1-1{
-    border: 1px solid rgba(4, 48, 13, 0.913);
+    border: 1px solid rgb(4, 48, 13);
     height: 280px;
     width: 120px;
     border-radius:200%;
-    z-index:1;
-    position: relative;
-    background-color: rgba(4, 48, 13, 0.913);
+    background-color: rgb(4, 48, 13);
     margin-top: -450px;
     margin-left: -3.9px;
 }
 .ear2-1{
-    border: 1px solid rgba(4, 48, 13, 0.913);
+    border: 1px solid rgb(4, 48, 13);
     height: 280px;
     width: 120px;
     border-radius:200%;
-    z-index:1;
-    position: relative;
-    background-color: rgba(4, 48, 13, 0.913);
+    
+    background-color: rgb(4, 48, 13);
     margin-top: -450px;
     margin-right: 77.5px;
+}
+.face{
+    display: block;
+    border: 1px solid rgb(4, 72, 19);
+    height: 300px;
+    width: 300px;
+    background-color: rgb(4, 72, 19);
+    border-radius: 100%;
+    margin-top: -460px;
+    margin-left: 157px;
+    z-index: 1;
+    position: relative;
 }
