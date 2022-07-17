@@ -4,3 +4,12 @@
     width: 600px;
     background-color: rgb(17, 59, 9);
 }
+.top1{
+    border: 1px solid black;
+    height: 28px;
+    width: 220px;
+    background-color: rgb(221, 173, 16);
+    border-radius: 30px;
+    margin-top: 90px;
+    margin-left:180px;
+}
