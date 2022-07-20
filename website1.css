@@ -3,12 +3,18 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: top;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(2px);
+    margin-top: 0px;
+    margin-left: 100px;
+}
+.bgcolor{
+    background-color: black;
 }
 .logo-img{
     padding: 30px;
     width: 6%;
     height: 6%;
+   
 }
 .logo-title{
     color: white;
@@ -41,4 +47,42 @@ body{
     border-radius: 20px;
     padding: 10px;
     border-color: green;
+}
+.bold{
+    width: 60%;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    margin-top: 150px ;
+   
+}
+span{
+    color: red;
+}
+.light{
+    width: 60%;
+    color: white;
+    word-spacing: 10px;
+}
+.drop-list{
+    color: white;
+    border: transparent;
+    background-color: transparent;
+}
+.know-more{
+    color: white;
+    background-color: green;
+    border: white;
+    padding: 10px;
+    
+}
+.contact-us{
+    color: white;
+    background-color: red;
+    border: white;
+    padding: 10px;
+    margin-left: 10px;
+}
+.buttons{
+    padding-top: 50px;
 }
