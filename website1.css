@@ -1,0 +1,22 @@
+.nav{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://cdn.wallpapersafari.com/21/83/3argFv.jpeg');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    padding-top: 50px; 
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.logo-1{
+    height: 10%;
+    width: 10%;
+}
+.logo-title{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    display: inline-block;
+    float: left;
+}
