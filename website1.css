@@ -200,7 +200,29 @@ span{
     margin-top: 20px;
     margin-left: 20px;
 }
-
-
-
-
+.container3{
+    height: 18vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 1, 2, 0.744),rgba(6, 1, 1, 0.808)),url('https://cdn.wallpapersafari.com/21/83/3argFv.jpeg');
+}
+.part3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5% 15% 5% 15%;
+}
+.c3text{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+    color: white;
+}
+.green{
+    color: green;
+}
+.c3-text{
+    width: 30%;
+}
+.c3-button{
+    margin-top: 30px;
+}
