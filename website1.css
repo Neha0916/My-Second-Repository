@@ -1,12 +1,12 @@
 .container1{
     background-image: linear-gradient(rgba(0, 1, 2, 0.744),rgba(6, 1, 1, 0.808)),url('https://cdn.wallpapersafari.com/21/83/3argFv.jpeg');
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-position: center;
     background-size: cover;
-    padding-top: 50px; 
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-top: 10px; 
+    padding-left: 10%;
+    padding-right: 10%;
     box-sizing: border-box;
 
 }
@@ -73,6 +73,35 @@ nav{
     flex: 1;
     text-align: right;
 }
-.content{
+.content1{
+   width: 50%; 
+}
+.line1{
+color: white;
+font-size: 40px;
+font-weight: bolder;
+}
+span{
+    color: orangered;
+}
+.line2{
+    color: white;
+    word-spacing: 2px;
+    margin-bottom: 80px;
+}
+.b2{
+    border: green;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    padding: 14px 30px 14px 30px;
+}
+.b3{
+    border: orangered;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    padding: 14px 30px 14px 30px;
+    margin-left: 20px;
 
 }
