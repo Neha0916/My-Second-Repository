@@ -250,8 +250,9 @@ span{
 }
 .c4-body{
     display: grid;
-    grid-template-columns: minmax(300px)1fr;
+    grid-template-columns: 750px;
     grid-template-areas: "part1 part2";
+    grid-gap: 70px;
 }
 .one{
     grid-area: part1;
@@ -286,11 +287,12 @@ span{
 }
 .c4-table{
     margin-left: -50px;
-    margin-top: -280px;
+    margin-top: -310px;
 }
 table{
     font-family:Arial, Helvetica, sans-serif;
-    width: 85%;
+    width: 100%;
+    font-size: 14px;
     text-align: left;
     border-collapse: collapse;
 }
@@ -300,9 +302,27 @@ table tr,td,th{
     /* padding-right: 40px; */
 }
 table tr th,td{
-    padding: 20px 20px;
+    padding: 20px 30px;
     border-bottom: 2px solid rgba(225, 218, 218, 0.576);
 }
 .C-1{
     color: green;
+}
+.two{
+    grid-area: part2;
+    margin-left: 120px;
+    width: 50%;
+}
+.c4-para1{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.c4-para2{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.c4-para3{
+    font-size: 14px;
+    margin-bottom: 30px;
 }
