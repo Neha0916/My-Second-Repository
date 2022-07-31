@@ -326,3 +326,89 @@ table tr th,td{
     font-size: 14px;
     margin-bottom: 30px;
 }
+.container5{
+    background-image: linear-gradient(rgba(0, 1, 2, 0.744),rgba(6, 1, 1, 0.808)),url('https://th.bing.com/th/id/R.c4491c28659892e38b795f75ca151704?rik=EHQUS0%2fyWoIgHQ&riu=http%3a%2f%2fhd-wallpapers.co%2fdownload%2fhonokai-hale-kapolei-hi-us-hd-wallpaper-1680x1050.jpg&ehk=mMibnqxwHud%2b0X55St4uKgAQ5xVGXwaKS4QAdca4A1Y%3d&risl=&pid=ImgRaw&r=0');
+    background-position: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 65vh;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 800px;
+    grid-template-areas: "a b";
+}
+.container5 .part2{
+    margin-top: 45px;
+    margin-bottom: 55px;
+}
+.container5 .part2 h5{
+    font-size: smaller;
+    color: red;
+    text-align: left;
+}
+.container5 .part2 h3{
+    margin-top: -18px;
+    font-size: 30px;
+    color: white;
+    text-align: left;
+}
+.details{
+    display: grid;
+    grid-template-areas: "name email";
+    grid-template-columns: 300px;
+}
+.container5 .part2 .name{
+    grid-area: name;
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;padding: 5px;
+}
+#name,#email{
+    background-color: rgb(144, 142, 142);
+    width: 250px;
+    margin-top: 5px;
+}
+.container5 .part2 .email{
+    grid-area: email;
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;padding: 5px;
+}
+.container5 .part2 .sub{
+    margin-top: 30px;
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;padding: 5px;
+}
+#sub{
+    background-color: rgb(144, 142, 142);
+    width: 565px;
+        margin-top: 5px;
+}
+.container5 .part2 .reason{
+    margin-top: 30px;
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;padding: 5px;
+}
+#reason{
+    background-color: rgb(144, 142, 142);
+    width: 565px;
+    color: white;
+    padding: 4px;margin-top: 5px;
+}
+#reason option{
+    color: white;
+    
+}
+.c5-button .b3{
+    padding: 10px;
+    justify-content: left;
+    border-radius: 3px;
+    margin-left: 3.5px;
+}
+.container5 .part1 img{
+    height: 75vh;
+    margin-top: -74.6px;
+}
