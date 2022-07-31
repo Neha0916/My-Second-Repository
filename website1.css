@@ -457,3 +457,19 @@ table tr th,td{
 .c6-body .body1 .part1 h5{
     color: green;
 }
+.container7{
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(0, 1, 2, 0.744);
+
+}
+.container7 .body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container7 .body img{
+    margin-top: 0px;
+    height: 80px;
+    width: 120px;
+}
