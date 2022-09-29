@@ -1,0 +1,86 @@
+.ball{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 60px;
+    /* background-image: linear-gradient(to right,red
+    ,orchid,orange
+    ); */
+    background-image: url("https://static4.depositphotos.com/1007135/321/v/450/depositphotos_3210045-stock-illustration-football-background.jpg");
+    border-radius: 600px;
+    animation: spin 10s linear alternate infinite,
+                moveright 6s linear infinite,
+                bounce 6s linear infinite ;
+}
+img{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+body{
+    overflow: hidden;
+}
+@keyframes spin{
+    100%{
+        background-position: 100%;
+    }
+}
+@keyframes moveright{
+    from{
+        left:-100%;
+    }
+    to{
+        left: 100%;
+    }
+}
+@keyframes bounce{
+    10%{
+        bottom: 60%;
+    }
+    20%{
+        bottom: 10%;
+    }
+    30%{
+        bottom: 60%;
+    }
+    40%{
+        bottom: 10%;
+    }
+    50%{
+        bottom: 60%;
+    }
+    55%{
+        bottom: 10%;
+    }
+    60%{
+        bottom: 15%;
+    }
+    65%{
+        bottom: 60%;
+    }
+    70%{
+        bottom: 15%;
+    }
+    75%{
+        bottom: 60%;
+    }
+    80%{
+        bottom: 10%;
+    }
+    85%{
+        bottom: 60%;
+    }
+    90%{
+        bottom: 15%;
+    }
+    95%{
+        bottom: 60%;
+    }
+}
