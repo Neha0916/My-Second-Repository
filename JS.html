@@ -7,7 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>JavaScript Experiments!</h1>
-    <script src="./JS.js"></script>
+    <!-- <h1>JavaScript Experiments!</h1>
+    <script src="./JS.js"></script> -->
+        <button class="event-button">Click me!!!</button>
+        <script>
+            const button=document.querySelector('.event-button');
+            button.addEventListener('click',function(){
+                alert("Hey there !!");
+            });
+        </script>
 </body>
 </html>
